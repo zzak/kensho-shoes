@@ -1,0 +1,44 @@
+GIT
+  remote: https://github.com/zacharyscott/green_shoes.git
+  revision: 2000f7fc2b3a2ed5b0c6af3657af79838e0f59cf
+  branch: gemify
+  specs:
+    green_shoes (0.0.1)
+      atk (~> 0.90.5)
+      cairo (~> 1.10.0)
+      glib2 (~> 0.90.5)
+      gtk2 (~> 0.90.5)
+      pango (~> 0.90.5)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    atk (0.90.5)
+      glib2 (>= 0.90.5)
+    cairo (1.10.0)
+      pkg-config
+    gdk_pixbuf2 (0.90.5)
+      glib2 (>= 0.90.5)
+    glib2 (0.90.5)
+      pkg-config
+    gtk2 (0.90.5)
+      atk (>= 0.90.5)
+      cairo (>= 1.10.0)
+      gdk_pixbuf2 (>= 0.90.5)
+      glib2 (>= 0.90.5)
+      pango (>= 0.90.5)
+    nokogiri (1.4.4)
+    pango (0.90.5)
+      cairo (>= 1.10.0)
+      glib2 (>= 0.90.5)
+    pkg-config (1.0.7)
+    w3c_validators (1.1.1)
+      nokogiri
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  green_shoes!
+  nokogiri
+  w3c_validators
