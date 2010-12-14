@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/zacharyscott/green_shoes.git
-  revision: b503a237a9f92fd1c3c3f52321d4b13f85638947
+  revision: 2ffa31682c7177d1ce4b2de850011632864641f8
   branch: gemify
   specs:
     green_shoes (0.0.1)
