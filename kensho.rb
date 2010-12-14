@@ -62,17 +62,18 @@ class Kensho < Shoes
   url '/validate', :validate
 
   def index
+    background black 
     stack do
       flow do
-        para "kensho"
+        title(fg(strong("kensho"), white), :align => "center", :margin => 20)
       end
 
       flow do
-        @type = list_box items: ['HTML', 'CSS', 'XML'], choose: 'HTML'
+        @type = list_box :width => 550, :margin => 20, :items => ['HTML', 'CSS', 'XML'], :choose => 'HTML'
       end
 
       flow do
-        @markup = edit_box
+        @markup = edit_box :width => 550, :height => 350, :margin => 20
       end
       
       flow do
@@ -93,4 +94,4 @@ class Kensho < Shoes
   end
 end
 
-Shoes.app width: 400, height: 400, title: 'kensho'
+Shoes.app width: 600, height: 800, title: 'kensho'
