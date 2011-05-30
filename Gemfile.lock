@@ -1,37 +1,25 @@
-GIT
-  remote: https://github.com/zacharyscott/green_shoes.git
-  revision: 2ffa31682c7177d1ce4b2de850011632864641f8
-  branch: gemify
-  specs:
-    green_shoes (0.0.1)
-      atk (~> 0.90.5)
-      cairo (~> 1.10.0)
-      glib2 (~> 0.90.5)
-      gtk2 (~> 0.90.5)
-      pango (~> 0.90.5)
-
 GEM
   remote: http://rubygems.org/
   specs:
-    atk (0.90.5)
-      glib2 (>= 0.90.5)
+    atk (0.90.8)
+      glib2 (>= 0.90.8)
     cairo (1.10.0)
       pkg-config
-    gdk_pixbuf2 (0.90.5)
-      glib2 (>= 0.90.5)
-    glib2 (0.90.5)
+    gdk_pixbuf2 (0.90.8)
+      glib2 (>= 0.90.8)
+    glib2 (0.90.8)
       pkg-config
-    gtk2 (0.90.5)
-      atk (>= 0.90.5)
-      cairo (>= 1.10.0)
-      gdk_pixbuf2 (>= 0.90.5)
-      glib2 (>= 0.90.5)
-      pango (>= 0.90.5)
+    green_shoes (0.221.0)
+      gtk2
+    gtk2 (0.90.8)
+      atk (>= 0.90.8)
+      gdk_pixbuf2 (>= 0.90.8)
+      pango (>= 0.90.8)
     nokogiri (1.4.4)
-    pango (0.90.5)
+    pango (0.90.8)
       cairo (>= 1.10.0)
-      glib2 (>= 0.90.5)
-    pkg-config (1.0.7)
+      glib2 (>= 0.90.8)
+    pkg-config (1.1.1)
     w3c_validators (1.1.1)
       nokogiri
 
@@ -39,6 +27,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  green_shoes!
+  green_shoes
   nokogiri
   w3c_validators
